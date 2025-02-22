@@ -219,7 +219,7 @@ def start_console():
 
 if __name__ == "__main__":
     try:
-        start_console()  # Start console interface in a separate thread
+        start_console() 
         bot.run(TOKEN)
     except Exception as e:
         print(f"Error starting bot: {e}")
